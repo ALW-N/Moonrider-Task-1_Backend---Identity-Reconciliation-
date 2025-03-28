@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+log
+debug.log
+trace
+*.pid
+*.seed
+*.pid.lock
+
+# Database files
+config/config.json
+*.sqlite
+*.sqlite3
+db.sqlite
+db.sqlite3
+
+# Sequelize migration files
+migrations/
+seeders/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+docker-entrypoint.sh
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# Miscellaneous
+.idea/
+Thumbs.db
