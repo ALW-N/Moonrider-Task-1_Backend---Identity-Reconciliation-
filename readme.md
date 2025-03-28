@@ -126,9 +126,6 @@ docker-compose up --build
   "secondaryContactIds": []
 }
 ```
-![My Image](https://drive.google.com/uc?id=1ldOFzXpAEdGgO85KsOJCSPQMHWb8lnut)
-
-
 
 ---
 
@@ -144,6 +141,8 @@ docker-compose up --build
    }
    ```
 4. Click **Send** and verify the response.
+
+![My Image](https://drive.google.com/uc?id=1ldOFzXpAEdGgO85KsOJCSPQMHWb8lnut)
 
 ---
 
