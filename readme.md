@@ -57,7 +57,7 @@ Ensure you have the following installed:
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/contact-reconciliation.git
+git clone https://github.com/ALW-N/contact-reconciliation.git
 cd contact-reconciliation
 ```
 
@@ -67,6 +67,7 @@ npm install
 ```
 
 ### **3️⃣ Configure Environment**  
+Create a .env file in the root directory of the project with the following content:
 ```sh
 DATABASE_URL=postgres://postgres:admin@localhost:5432/contacts_db
 PORT=3000
@@ -175,7 +176,6 @@ docker exec -it contact-reconciliation-api npx sequelize-cli db:migrate:undo:all
 docker exec -it contact-reconciliation-api npx sequelize-cli db:migrate
 ```
 
----
 
 
 
